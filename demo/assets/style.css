@@ -1,0 +1,36 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+}
+
+.page{
+
+}
+
+.form-group {
+    width: 100%;
+    line-height: 44px;
+    height: 44px;
+    border-bottom: 1px solid lightgray;
+}
+.form-group:after{
+    clear:both;
+}
+.form-group label {
+    width: 30%;
+    padding-left: 15px;
+    text-align: right;
+    float: left;
+}
+
+.form-group .control {
+    width: 70%;
+    text-align: left;
+    float: left;
+}
+.form-group .control input {
+    height: 36px;;
+    padding:3px 6px ;
+    border-radius: 5px;
+}
